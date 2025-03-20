@@ -1,0 +1,49 @@
+2025-03-20T17:50:31Z info: Deployment: 7f3adbf3-3b48-4525-89a0-9f8ce51d37c2
+2025-03-20T17:50:31Z info: Build: 52600fdb-2c87-46c9-8ba4-8d07f72c79fc
+2025-03-20T17:50:31Z info: Connecting to builder
+2025-03-20T17:50:34Z info: Builder connected
+2025-03-20T17:50:35Z info: Installing packages
+2025-03-20T17:50:35Z info: Starting Build
+
+> climate-change-risk-assessment-tool@0.0.0 build
+> vite build
+
+
+vite v4.5.5 building for production...
+
+transforming...
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+
+✓ 3434 modules transformed.
+
+rendering chunks...
+
+computing gzip size...
+
+dist/index.html                     0.76 kB │ gzip:   0.42 kB
+
+✓ built in 28.44s
+
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.2.0
+npm notice To update run: npm install -g npm@11.2.0
+npm notice
+
+2025-03-20T17:51:07Z info: Pushing pid1 binary layer...
+2025-03-20T17:51:08Z info: Pushing Repl layer...
+2025-03-20T17:51:08Z info: Pushing hosting layer...
+2025-03-20T17:51:08Z info: Retrieved cached nix layer
+2025-03-20T17:51:08Z info: Created hosting layer
+2025-03-20T17:51:09Z info: Created pid1 binary layer
+2025-03-20T17:51:20Z info: Created Repl layer
+2025-03-20T17:51:21Z info: Pushed image manifest
+2025-03-20T17:51:22Z info: Pushed soci index manifest
+2025-03-20T17:51:26Z info: Creating Autoscale service
+starting up user application
+forwarding local port 3000 to external port 80
+a port configuration was specified but the required port was never opened
+2025-03-20T17:53:13Z error: The deployment failed because the application failed to open a port in time. This can happen because the application takes to long to open a server, or doesn't open one at all on the expected port. Note that this doesn't mean that the application is crashing, only that it's not opening a port in time. The application must serve traffic on the first port specified as 'localPort' in the port configuration specified in the .replit file. Make sure that the application opens a port quickly and that there are no operations taking too long on startup. Check the logs for more information.
