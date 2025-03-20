@@ -1,0 +1,21 @@
+{
+  "title": "Resumo Executivo de Riscos Climáticos",
+  "subtitle": "Principais descobertas e avaliação de urgência",
+  "no_data": "Nenhum dado de avaliação de risco disponível",
+  "summary": {
+    "high_urgency": "{{cityname}} enfrenta {{count}} riscos climáticos muito altos que requerem atenção imediata. {{topHazard}} representa a maior ameaça, sendo o setor de {{topSector}} o mais vulnerável.",
+    "medium_urgency": "{{cityname}} tem {{count}} riscos climáticos altos que devem ser tratados. {{topHazard}} é o perigo mais significativo identificado.",
+    "low_urgency": "{{cityname}} atualmente enfrenta riscos climáticos baixos a moderados. Continue monitorando e planejando para mudanças futuras."
+  },
+  "urgency": {
+    "high": "Ação Urgente Necessária",
+    "medium": "Ação Prioritária Necessária",
+    "low": "Continuar Monitoramento"
+  },
+  "metrics": {
+    "average_risk": "Pontuação Média de Risco",
+    "high_risk_hazards": "Riscos Climáticos Altos",
+    "top_sector": "Setor Mais Vulnerável",
+    "top_hazard": "Principal Ameaça Climática"
+  }
+}

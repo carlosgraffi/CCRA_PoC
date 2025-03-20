@@ -16,6 +16,7 @@ import RiskAssessmentIntro from "../RiskAssessmentIntro";
 import MultilingualExportButtons from '../MultilingualExportButtons';
 import { DownloadButton, downloadAsPNG } from "../../utils/chartExportUtils.jsx";
 import ClimateProjections from './ClimateProjections';
+import ExecutiveSummaryDashboard from '../ExecutiveSummaryDashboard';
 
 const RiskAssessment = forwardRef(({ cityname, region, actor_id, osm_id, onBack }, ref) => {
   const { t } = useTranslation();
@@ -166,6 +167,15 @@ const RiskAssessment = forwardRef(({ cityname, region, actor_id, osm_id, onBack 
           <div className="flex flex-col md:col-span-2 h-[300px] sm:h-[400px] w-full bg-white rounded-lg shadow-md">
             <CityMap cityname={cityname} region={region} osm_id={osm_id} />
           </div>
+        </div>
+
+        {/* Executive Summary Dashboard */}
+        <div id="executive-summary" className="scroll-mt-24">
+          <ExecutiveSummaryDashboard 
+            riskAssessment={processedRiskData}
+            cityname={cityname}
+            region={region}
+          />
         </div>
 
         <RiskAssessmentIntro />

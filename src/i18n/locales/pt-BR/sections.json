@@ -34,6 +34,8 @@
     "time_series_title": "Série Temporal de Índices Climáticos",
     "summary_view": "Visão Resumida",
     "time_series": "Série Temporal",
+    "explanations_title": "O que são esses índices?",
+    "explanations": "Os índices climáticos são medidas simples que nos ajudam a acompanhar e entender padrões climáticos complexos. Eles transformam dados meteorológicos complicados em números que mostram como o nosso clima está mudando ao longo do tempo. Cada índice monitora um aspecto específico do clima, como eventos de chuva extrema, períodos de seca ou temperaturas elevadas. Essas informações ajudam gestores públicos e planejadores urbanos a se preparar para os impactos das mudanças climáticas, como enchentes, secas e ondas de calor.",
     "trend": "Tendência",
     "trend_line": "Linha de tendência",
     "trend_lines": "Linhas de tendência",
@@ -60,7 +62,9 @@
       "pessimistic": "Pessimista",
       "no_projections": "Não há dados de projeção disponíveis",
       "interpretation": "Como Interpretar Estes Dados",
-      "data_explanation": "Os dados mostram mudanças projetadas em relação à linha de base histórica. Um aumento significa que o índice está se tornando mais frequente ou intenso."
+      "data_explanation": "Os dados mostram mudanças projetadas em relação à linha de base histórica. Um aumento significa que o índice está se tornando mais frequente ou intenso.",
+      "what_is_index": "O que é um índice climático?",
+      "warning_icon_note": "Alterações significativas nesses cenários são simbolizadas por este ícone"
     }
   },
   "ccra_table": {
@@ -69,6 +73,9 @@
     "insights":"Compare pontuações de risco e componentes em diferentes perigos. Preste atenção especial à relação entre pontuações de risco, exposição e vulnerabilidade para entender o que impulsiona cada nível de risco.",
     "description_with_assessment": "Detalhamento dos dados de avaliação de risco mostrando todos os riscos analisados e seus componentes. Valores foram ajustados com base nos resultados da Avaliação Qualitativa.",
     "no_data": "Nenhum dado de avaliação de risco disponível",
+    "component_scores": "Pontuações dos Componentes",
+    "click_for_details": "Clique para mais detalhes",
+    "no_matching_results": "Nenhum resultado corresponde aos filtros atuais",
     "filters": {
       "title": "Filtros",
       "clear": "Limpar",

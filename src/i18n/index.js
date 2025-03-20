@@ -20,6 +20,8 @@ import enSections from './locales/en/sections.json';
 import enTooltips from './locales/en/tooltips.json';
 import enTranslation from './locales/en/translation.json';
 import enExport from './locales/en/export.json';
+import enClimateIndices from './locales/en/climate_indices.json';
+import enDashboard from './locales/en/dashboard.json'; // Added dashboard translations
 
 // Portuguese translations
 import ptBRQualitativeAssessment from './locales/pt-BR/qualitative-assessment.json';
@@ -39,6 +41,8 @@ import ptBRSections from './locales/pt-BR/sections.json';
 import ptBRTooltips from './locales/pt-BR/tooltips.json';
 import ptBRTranslation from './locales/pt-BR/translation.json';
 import ptBRExport from './locales/pt-BR/export.json';
+import ptBRClimateIndices from './locales/pt-BR/climate_indices.json';
+import ptBRDashboard from './locales/pt-BR/dashboard.json'; // Added dashboard translations
 
 i18n
   .use(LanguageDetector)
@@ -62,7 +66,9 @@ i18n
         sections: enSections,
         tooltips: enTooltips,
         translation: enTranslation,
-        export: enExport 
+        export: enExport,
+        climate_indices: enClimateIndices,
+        dashboard: enDashboard, // Added dashboard namespace
       },
       'pt-BR': {
         'qualitative-assessment': ptBRQualitativeAssessment,
@@ -81,8 +87,10 @@ i18n
         sections: ptBRSections,
         tooltips: ptBRTooltips,
         translation: ptBRTranslation,
-        export: ptBRExport
-      }
+        export: ptBRExport,
+        climate_indices: ptBRClimateIndices,
+        dashboard: ptBRDashboard, // Added dashboard namespace
+      },
     },
     fallbackLng: 'en',
     debug: process.env.NODE_ENV === 'development',
@@ -103,16 +111,18 @@ i18n
       'sections',
       'tooltips',
       'translation',
-      'export'
+      'export',
+      'climate_indices',
+      'dashboard', // Added dashboard namespace
     ],
     defaultNS: 'translation',
     interpolation: {
-      escapeValue: false
+      escapeValue: false,
     },
     detection: {
       order: ['localStorage', 'navigator'],
-      caches: ['localStorage']
-    }
+      caches: ['localStorage'],
+    },
   });
 
 export default i18n;

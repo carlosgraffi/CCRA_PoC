@@ -11,8 +11,9 @@ language = "nodejs"
 
 [deployment]
 deploymentTarget = "static"
-build = ["npm", "run", "build"]
+build = ["sh", "-c", "npm run build"]
 publicDir = "dist"
+run = ["sh", "-c", "npm run preview"]
 
 [[ports]]
 localPort = 443
@@ -22,8 +23,11 @@ externalPort = 3000
 localPort = 3000
 externalPort = 80
 
+[[ports]]
+localPort = 3001
+externalPort = 3001
+
 [workflows]
-runButton = "Run"
 
 [[workflows.workflow]]
 name = "Run"

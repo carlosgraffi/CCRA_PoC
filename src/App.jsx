@@ -42,11 +42,6 @@ const AppContent = () => {
         <Route path="/cities/:cityId" element={<CityRoute />} />
       </Routes>
 
-      {/* Debug Tool - will appear on all pages */}
-      <div className="container mx-auto my-8 px-4">
-        <DebugTool />
-      </div>
-
       <footer className="bg-gray-100 py-4 mt-auto">
         <div className="container mx-auto px-4 text-center text-gray-600 text-sm">
           {t('footer:copyright')}

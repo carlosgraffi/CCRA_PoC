@@ -23,6 +23,7 @@
       "indicator": "Indicator",
       "raw_score": "Value",
       "normalized_score": "Normalized Score",
+      "score": "Score",
       "units": "Units",
       "year": "Year",
       "source": "Source"
@@ -30,5 +31,14 @@
   },
   "loading": "Loading indicator data...",
   "no_data": "No indicator data available for this scenario.",
-  "error": "Failed to load indicator details"
+  "error": "Failed to load indicator details",
+  "risk_level": "Risk Level",
+  "risk_score_breakdown": "Risk Score Breakdown",
+  "hazard_explanation": "Likelihood and magnitude of the climate threat",
+  "exposure_explanation": "People and assets that could be affected",
+  "vulnerability_explanation": "Sensitivity to damage and ability to adapt",
+  "risk_calculation_formula": "Risk = Hazard × Exposure × Vulnerability",
+  "recommended_actions": "Recommended Actions",
+  "recommendations_placeholder": "Recommendations for this risk will be available in a future update",
+  "select_scenario": "Select Climate Scenario"
 }

@@ -103,5 +103,20 @@
     "slight_increase": "Leve aumento no risco",
     "moderate_increase": "Aumento moderado no risco",
     "significant_increase": "Aumento significativo no risco"
-  }
+  },
+  "scenarios": {
+    "optimistic": "Otimista (RCP4.5)",
+    "pessimistic": "Pessimista (RCP8.5)",
+    "optimistic_trend": "Tendência Otimista",
+    "pessimistic_trend": "Tendência Pessimista"
+  },
+  "items": "itens",
+  "indicators": "indicadores",
+  "tabs": {
+    "overview": "Visão Geral",
+    "indicators": "Indicadores"
+  },
+  "error": "Erro ao carregar dados",
+  "loading": "Carregando...",
+  "no_data": "Nenhum dado disponível"
 }

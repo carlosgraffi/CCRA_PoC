@@ -9,6 +9,7 @@ const AssessmentNavigation = () => {
 
   const sections = [
     { id: 'intro', label: t('risk-assessment:sections.intro') },
+    { id: 'executive-summary', label: t('risk-assessment:sections.executive_summary') },
     { id: 'top-risks', label: t('risk-assessment:sections.toprisks') },
     { id: 'projections', label: t('risk-assessment:sections.projections_') },
     { id: 'comparison', label: t('risk-assessment:sections.comparison') },

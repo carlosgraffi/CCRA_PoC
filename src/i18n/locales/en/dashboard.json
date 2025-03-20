@@ -1,0 +1,21 @@
+{
+  "title": "Climate Risk Executive Summary",
+  "subtitle": "Key findings and urgency assessment",
+  "no_data": "No risk assessment data available",
+  "summary": {
+    "high_urgency": "{{cityname}} faces {{count}} very high risk climate hazards requiring immediate attention. {{topHazard}} poses the greatest threat, with the {{topSector}} sector most vulnerable.",
+    "medium_urgency": "{{cityname}} has {{count}} high risk climate hazards that should be addressed. {{topHazard}} is the most significant hazard identified.",
+    "low_urgency": "{{cityname}} currently faces low to moderate climate risks. Continue monitoring and planning for future changes."
+  },
+  "urgency": {
+    "high": "Urgent Action Required",
+    "medium": "Priority Action Needed",
+    "low": "Continue Monitoring"
+  },
+  "metrics": {
+    "average_risk": "Average Risk Score",
+    "high_risk_hazards": "High Risk Hazards",
+    "top_sector": "Most Vulnerable Sector",
+    "top_hazard": "Primary Climate Hazard"
+  }
+}

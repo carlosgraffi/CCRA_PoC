@@ -7,7 +7,9 @@
     "vulnerability_score": "Vulnerability Score",
     "hazards": "Hazards",
     "scenarios": "Scenarios",
-    "indicators": "indicators"
+    "indicators": "indicators",
+    "climate_indices": "Climate Indices",
+    "year": "Year"
   },
   "metrics": {
     "sensitivity": "Sensitivity",
@@ -72,5 +74,19 @@
     "slight_increase": "Slight increase in risk",
     "moderate_increase": "Moderate increase in risk",
     "significant_increase": "Significant increase in risk"
-  }
+  },
+  "scenarios": {
+    "optimistic": "Optimistic (RCP4.5)",
+    "pessimistic": "Pessimistic (RCP8.5)",
+    "optimistic_trend": "Optimistic Trend",
+    "pessimistic_trend": "Pessimistic Trend"
+  },
+  "items": "items",
+  "tabs": {
+    "overview": "Overview",
+    "indicators": "Indicators"
+  },
+  "error": "Error loading data",
+  "loading": "Loading...",
+  "no_data": "No data available"
 }

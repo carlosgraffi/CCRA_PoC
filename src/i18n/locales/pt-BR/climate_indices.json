@@ -1,4 +1,3 @@
-
 {
   "CDD": "Dias Secos Consecutivos (Índice de Seca)",
   "R95p": "Dias de Precipitação Intensa (Chuva Extrema)",
@@ -16,5 +15,25 @@
   "TX90p": "Dias Quentes (Calor Diurno)",
   "SPEI": "Índice de Precipitação-Evaporação (Balanço Hídrico)",
   "tasmax": "Temperatura Máxima (Pico Diário)",
-  "tas": "Temperatura Média (Média Diária)"
+  "tas": "Temperatura Média (Média Diária)",
+
+  "descriptions": {
+    "CDD": "Mede o número máximo de dias consecutivos em um ano com precipitação inferior a 1mm. Períodos mais longos indicam maior risco de seca e estresse hídrico para a agricultura e o abastecimento de água.",
+    "R95p": "Conta os dias com precipitação superior ao percentil 95 (calculado de 1961 a 1990). Mais dias com chuvas extremas sugerem maior risco de inundações e danos à infraestrutura.",
+    "RX1day": "Mede a precipitação máxima que ocorre em um único dia de cada ano. Valores mais altos indicam eventos de chuva intensa que podem causar inundações repentinas e problemas de drenagem urbana.",
+    "RX5day": "Mede o total máximo de precipitação ao longo de cinco dias consecutivos de cada ano. Valores mais altos indicam chuvas prolongadas que podem causar inundações generalizadas e saturação do solo.",
+    "SPI": "Índice padronizado que mostra anomalias de precipitação. Valores negativos indicam condições de seca, enquanto valores positivos indicam períodos mais úmidos que o normal.",
+    "WSDI": "Conta o número de dias por ano com pelo menos 6 dias consecutivos em que a temperatura máxima excede o percentil 90. Ondas de calor mais longas aumentam o estresse térmico em pessoas, infraestrutura e ecossistemas.",
+    "TXx": "Mede a temperatura máxima registrada durante o dia em cada ano. Valores mais altos indicam calor extremo que pode afetar a saúde humana, a demanda de energia e a infraestrutura.",
+    "TNn": "Mede a temperatura mínima registrada durante a noite em cada ano. Mudanças neste índice indicam alterações nos padrões de geada e extremos de frio.",
+    "TR": "Conta o número de dias por ano em que a temperatura mínima permanece acima de 20°C. Mais noites tropicais aumentam o estresse térmico e podem afetar a qualidade do sono das populações vulneráveis.",
+    "FD": "Conta o número de dias por ano em que a temperatura mínima fica abaixo de 0°C. Mudanças nos dias de geada afetam as estações de cultivo, a agricultura e a sobrevivência de pragas.",
+    "GTx": "Mede a duração da estação de crescimento com base em limiares de temperatura. Mudanças afetam o planejamento agrícola, a produtividade e os ecossistemas naturais.",
+    "PRCPTOT": "Mede a precipitação total anual. Alterações impactam a disponibilidade de água, o funcionamento dos ecossistemas e a frequência de enchentes e secas.",
+    "TN90p": "Percentual de dias em que as temperaturas mínimas excedem o percentil 90. Mais noites quentes aumentam os riscos à saúde relacionados ao calor e impedem o resfriamento noturno nas áreas urbanas.",
+    "TX90p": "Percentual de dias em que as temperaturas máximas diurnas excedem o percentil 90. Mais dias extremamente quentes aumentam os riscos à saúde, a demanda de energia e o estresse hídrico.",
+    "SPEI": "Mede o balanço hídrico considerando precipitação e evapotranspiração potencial. Valores negativos indicam condições de seca considerando efeitos de chuva e temperatura.",
+    "tasmax": "A temperatura máxima diária média por ano. Aumentos podem afetar a demanda de energia, o conforto térmico e o funcionamento dos ecossistemas.",
+    "tas": "A temperatura média diária ao longo de um ano. Mudanças neste parâmetro fundamental afetam amplamente sistemas humanos e naturais."
+  }
 }

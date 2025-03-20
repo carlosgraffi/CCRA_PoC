@@ -1,5 +1,6 @@
 import React, { useMemo, forwardRef } from 'react';
 import { useTranslation } from 'react-i18next';
+import { AlertTriangle } from 'lucide-react';
 import { getRiskLevel, formatScore, getRiskChangeDescription } from '../../constants/riskLevels';
 
 const TopRisks = forwardRef(({ riskAssessment, resilienceScore }, ref) => {
@@ -32,16 +33,27 @@ const TopRisks = forwardRef(({ riskAssessment, resilienceScore }, ref) => {
         const changeDescription = resilienceScore !== null ?
           getRiskChangeDescription(risk.original_risk_score, risk.risk_score) : null;
 
+        // Convert hazard name to a format matching translation keys (lowercase, with underscores)
+        const hazardKey = risk.hazard?.toLowerCase().replace(/\s+/g, '_');
+        const sectorKey = risk.keyimpact?.toLowerCase().replace(/\s+/g, '_');
+
         return (
-          
           <div 
             key={`${risk.hazard}-${risk.keyimpact}-${index}`}
             className="flex-1 p-6 bg-white rounded-lg border border-gray-200 hover:border-gray-300 transition-colors"
           > 
+            {/* Urgency Banner for High and Very High Risks */}
+            {(riskLevel.label === 'High' || riskLevel.label === 'Very High') && (
+              <div className="mb-4 p-2 bg-red-50 border border-red-100 rounded-md text-sm text-red-800 flex items-start gap-2">
+                <AlertTriangle className="h-4 w-4 text-red-600 mt-0.5 flex-shrink-0" />
+                <p>{t('components:topRisks.priority_action_required')}</p>
+              </div>
+            )}
+
             <div className="flex items-center justify-between mb-4">
               <div className="uppercase text-gray-600 text-xs font-semibold tracking-wider">
-                
-                {t(`common:sectors.${risk.keyimpact}`, { defaultValue: risk.keyimpact })}
+                {t(`common:sectors.${sectorKey}`, 
+                  { defaultValue: t(`common:common.sectors.${risk.keyimpact}`, { defaultValue: risk.keyimpact }) })}
               </div>
               <span
                 className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium"
@@ -57,7 +69,7 @@ const TopRisks = forwardRef(({ riskAssessment, resilienceScore }, ref) => {
             {/* Hazard Name */}
             <div className="mb-6">
               <h4 className="text-2xl font-semibold capitalize text-gray-900">
-                {t(`hazards:${risk.hazard}.name`, { defaultValue: risk.hazard })}
+                {t(`common:hazards.${hazardKey}`, { defaultValue: risk.hazard })}
               </h4>
               <span className="text-gray-500 text-sm">
                 {t('components:topRisks.climate_hazard')}
@@ -138,6 +150,22 @@ const TopRisks = forwardRef(({ riskAssessment, resilienceScore }, ref) => {
                   </div>
                 </div>
               </div>
+            </div>
+
+            {/* Human impact explanation */}
+            <div className="mt-4 pt-4 border-t border-gray-100">
+              <h5 className="text-sm font-medium text-gray-700 mb-2">
+                {t('components:topRisks.potential_impacts')}
+              </h5>
+              <p className="text-sm text-gray-600">
+                {t(`components:impacts.${hazardKey}.${sectorKey}`, {
+                  defaultValue: t(`components:impacts.${hazardKey}.general`, {
+                    defaultValue: t(`components:impacts.general.${sectorKey}`, {
+                      defaultValue: t('components:impacts.general.default')
+                    })
+                  })
+                })}
+              </p>
             </div>
           </div>
         );

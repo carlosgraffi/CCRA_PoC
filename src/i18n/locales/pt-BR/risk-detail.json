@@ -23,6 +23,7 @@
       "indicator": "Indicador",
       "raw_score": "Valor",
       "normalized_score": "Pontuação normalizada",
+      "score": "Pontuação",
       "units": "Unidades",
       "year": "Ano",
       "source": "Fonte"
@@ -33,5 +34,14 @@
   },
   "loading": "Carregando dados dos indicadores...",
   "no_data": "Nenhum dado de indicador disponível para este cenário.",
-  "error": "Falha ao carregar detalhes dos indicadores"
+  "error": "Falha ao carregar detalhes dos indicadores",
+  "risk_level": "Nível de Risco",
+  "risk_score_breakdown": "Detalhamento da Pontuação de Risco",
+  "hazard_explanation": "Probabilidade e magnitude da ameaça climática",
+  "exposure_explanation": "Pessoas e ativos que podem ser afetados",
+  "vulnerability_explanation": "Sensibilidade aos danos e capacidade de adaptação",
+  "risk_calculation_formula": "Risco = Ameaça × Exposição × Vulnerabilidade",
+  "recommended_actions": "Ações Recomendadas",
+  "recommendations_placeholder": "Recomendações para este risco estarão disponíveis em uma atualização futura",
+  "select_scenario": "Selecionar Cenário Climático"
 }

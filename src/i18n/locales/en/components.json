@@ -103,10 +103,43 @@
     "no_data": "No risk data available.",
     "climate_hazard": "Climate Hazard",
     "risk_score": "Risk Score",
+    "priority_action_required": "Priority action required based on risk level",
+    "potential_impacts": "Potential Impacts",
     "component_scores": {
       "hazard": "Hazard Score",
       "exposure": "Exposure Score",
       "vulnerability": "Vulnerability Score"
+    }
+  },
+  "impacts": {
+    "drought": {
+      "water_resources": "Reduced water availability for drinking and irrigation, decreased reservoir levels, groundwater depletion, and potential water quality issues.",
+      "food_security": "Reduced crop yields, livestock stress, higher food prices, and food shortages in vulnerable communities.",
+      "energy_security": "Reduced hydropower generation capacity, water shortages for power plant cooling, and increased energy demand for water pumping.",
+      "healthcare": "Increased water-related illnesses, mental health impacts from water insecurity, and strain on healthcare facilities.",
+      "general": "Water shortages affecting multiple sectors, ecosystem degradation, economic impacts, and potential conflict over limited resources."
+    },
+    "flood": {
+      "water_resources": "Contamination of water supplies, damage to water infrastructure, and overwhelming of water treatment systems.",
+      "food_security": "Crop destruction, soil erosion, livestock losses, and disruption to food distribution networks.",
+      "infrastructure": "Damage to buildings, roads, bridges, and utilities, with potential long-term economic impacts.",
+      "healthcare": "Injury and disease from water contamination, displacement, and disruption to healthcare services.",
+      "general": "Widespread property damage, disruption to essential services, business closures, and potential long-term economic impacts."
+    },
+    "heat": {
+      "water_resources": "Increased evaporation from water bodies, higher water demand, and potential water quality issues.",
+      "healthcare": "Heat-related illnesses and deaths, particularly among vulnerable populations, and increased strain on healthcare facilities.",
+      "energy_security": "Higher energy demand for cooling, reduced transmission efficiency, and potential grid failures during peak demand.",
+      "food_security": "Reduced crop yields, livestock stress, irrigation challenges, and disruption to food distribution systems.",
+      "general": "Health impacts, energy demand spikes, infrastructure stress, and impacts on vulnerable populations."
+    },
+    "general": {
+      "water_resources": "Changes to water quality and availability affecting drinking water, irrigation, and ecosystem health.",
+      "food_security": "Disruption to food production, distribution, and access, with potential price increases.",
+      "healthcare": "Increased demand for healthcare services, possible spread of diseases, and challenges in service delivery.",
+      "infrastructure": "Damage to critical infrastructure, disruption to services, and increased maintenance costs.",
+      "energy_security": "Disruption to energy production, transmission, and distribution, with potential supply shortages.",
+      "default": "Potential impacts across multiple sectors including infrastructure, health, economy, and natural systems."
     }
   }
 }

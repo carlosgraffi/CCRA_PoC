@@ -34,9 +34,12 @@
     "time_series_title": "Climate Index Time Series",
     "summary_view": "Summary View",
     "time_series": "Time Series",
+    "explanations_title": "What are these indices?",
+    "explanations": "Climate indices are simple measurements that help us track and understand complex climate patterns. They convert complicated weather data into numbers that show how our climate is changing over time. Each index tracks a specific aspect of climate, such as extreme rainfall events, dry periods, or temperature highs. These measurements help city planners prepare for climate change impacts like floods, droughts, and heat waves.",
     "trend": "Trend",
     "trend_lines": "Trend Lines",
     "no_data_available_try_another": "Climate data is not available for this city. Try selecting another city.",
+    "range": "Range",
     "scenarios": {
       "historical": "Historical",
       "optimistic": "Optimistic",
@@ -62,7 +65,9 @@
       "rcp45": "RCP 4.5 (Optimistic)",
       "rcp85": "RCP 8.5 (Pessimistic)",
       "rcp45_explanation": "Assumes emissions peak around 2040 and then decline, with moderate mitigation efforts.",
-      "rcp85_explanation": "Assumes continued high emissions through the century with limited mitigation efforts."
+      "rcp85_explanation": "Assumes continued high emissions through the century with limited mitigation efforts.",
+      "what_is_index": "What does this Index means?",
+      "warning_icon_note": "Significant changes in these scenarios are symbolized with this icon"
     }
   },
   "ccra_table": {
@@ -71,6 +76,9 @@
     "insights": "Compare risk scores and components across different hazards. Pay special attention to the relationship between hazard, exposure, and vulnerability scores to understand what drives each risk level.",
     "description_with_assessment": "Detailed breakdown of risk assessment data showing all analyzed hazards and their components. Values have been adjusted based on Qualitative Assessment results.",
     "no_data": "No risk assessment data available",
+    "component_scores": "Component Scores",
+    "click_for_details": "Click for more details",
+    "no_matching_results": "No results match the current filters",
     "filters": {
       "title": "Filters",
       "clear": "Clear filters",

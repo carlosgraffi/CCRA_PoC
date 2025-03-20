@@ -1,4 +1,3 @@
-
 {
   "CDD": "Consecutive Dry Days (Drought Index)",
   "R95p": "Heavy Precipitation Days (Extreme Rainfall)",
@@ -16,5 +15,25 @@
   "TX90p": "Hot Days (Daytime Heat)",
   "SPEI": "Precipitation-Evaporation Index (Water Balance)",
   "tasmax": "Maximum Temperature (Daily High)",
-  "tas": "Average Temperature (Daily Mean)"
+  "tas": "Average Temperature (Daily Mean)",
+
+  "descriptions": {
+    "CDD": "Measures the maximum number of consecutive days in a year with rainfall below 1mm. Longer dry spells indicate increased drought risk and potential water stress for agriculture and water supplies.",
+    "R95p": "Counts days with rainfall exceeding the 95th percentile (calculated from 1961-1990). More days with extreme rainfall suggest increased flood risk and potential infrastructure damage.",
+    "RX1day": "Measures the maximum rainfall that occurs in a single day each year. Higher values indicate more intense rainfall events that can cause flash flooding and urban drainage problems.",
+    "RX5day": "Measures the maximum rainfall total over five consecutive days each year. Higher values indicate prolonged heavy rainfall that can cause widespread flooding and soil saturation.",
+    "SPI": "A standardized index showing rainfall anomalies. Negative values indicate drought conditions, while positive values indicate wetter than normal conditions.",
+    "WSDI": "Counts the number of days per year with at least 6 consecutive days when maximum temperature exceeds the 90th percentile. Longer warm spells increase heat stress on people, infrastructure, and ecosystems.",
+    "TXx": "Measures the maximum daytime temperature recorded each year. Higher values indicate more extreme heat that can affect human health, energy demand, and infrastructure.",
+    "TNn": "Measures the minimum nighttime temperature recorded each year. Changes in this index can signal shifting frost patterns and cold extremes.",
+    "TR": "Counts the number of days per year when minimum temperature stays above 20°C (68°F). More tropical nights increase heat stress, particularly for vulnerable populations, and can disrupt sleep patterns.",
+    "FD": "Counts the number of days per year when minimum temperature falls below 0°C (32°F). Changes in frost days affect growing seasons, agriculture, and pest survival.",
+    "GTx": "Measures the length of the growing season based on temperature thresholds. Changes affect crop planning, agricultural productivity, and natural ecosystems.",
+    "PRCPTOT": "Measures the total annual rainfall. Changes impact water availability, ecosystem function, and the frequency of both floods and droughts.",
+    "TN90p": "Percentage of days when nighttime temperatures exceed the 90th percentile. More warm nights increase heat-related health risks and prevent nighttime cooling of urban areas.",
+    "TX90p": "Percentage of days when daytime temperatures exceed the 90th percentile. More extremely hot days increase heat-related health risks, energy demand for cooling, and water stress.",
+    "SPEI": "Measures water balance by considering both precipitation and potential evapotranspiration. Negative values indicate drought conditions considering both rainfall and temperature effects.",
+    "tasmax": "The average daily maximum temperature per year. Increases can affect energy demand, human comfort, and ecosystem function.",
+    "tas": "The mean daily temperature averaged over a year. Changes in this fundamental climate parameter can have wide-ranging impacts on all aspects of human and natural systems."
+  }
 }

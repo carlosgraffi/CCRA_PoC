@@ -74,13 +74,16 @@
   },
   "topRisks": {
     "no_data": "Dados de risco não disponíveis.",
-    "climate_hazard": "Risco Climático",
+    "climate_hazard": "Ameaça Climática",
     "risk_score": "Pontuação de Risco",
+    "priority_action_required": "Ação prioritária necessária com base no nível de risco",
+    "potential_impacts": "Impactos Potenciais",
     "component_scores": {
       "hazard": "Pontuação de Risco",
       "exposure": "Pontuação de Exposição",
       "vulnerability": "Pontuação de Vulnerabilidade"
     },
+    
     "city_dropdown": {
       "region": {
         "label": "Região:",
@@ -106,6 +109,37 @@
         "load_failed": "Não foi possível carregar as cidades. Por favor, tente novamente mais tarde. ({{error}})",
         "placeholder": "Falha ao carregar cidades..."
       }
+    }
+  },
+  "impacts": {
+    "drought": {
+      "water_resources": "Redução da disponibilidade de água para consumo e irrigação, diminuição dos níveis dos reservatórios, esgotamento das águas subterrâneas e possíveis problemas de qualidade da água.",
+      "food_security": "Redução da produtividade agrícola, estresse do gado, aumento de preços dos alimentos e escassez de alimentos em comunidades vulneráveis.",
+      "energy_security": "Redução da capacidade de geração hidrelétrica, escassez de água para refrigeração de usinas e aumento da demanda de energia para bombeamento de água.",
+      "healthcare": "Aumento de doenças relacionadas à água, impactos na saúde mental devido à insegurança hídrica e sobrecarga das instalações de saúde.",
+      "general": "Escassez de água afetando múltiplos setores, degradação do ecossistema, impactos econômicos e potencial conflito por recursos limitados."
+    },
+    "flood": {
+      "water_resources": "Contaminação das fontes de água, danos à infraestrutura hídrica e sobrecarga dos sistemas de tratamento de água.",
+      "food_security": "Destruição de cultivos, erosão do solo, perdas de gado e interrupção das redes de distribuição de alimentos.",
+      "infrastructure": "Danos a edifícios, estradas, pontes e serviços públicos, com potenciais impactos econômicos de longo prazo.",
+      "healthcare": "Lesões e doenças derivadas da contaminação da água, deslocamento populacional e interrupção dos serviços de saúde.",
+      "general": "Amplos danos materiais, interrupção de serviços essenciais, fechamento de empresas e potenciais impactos econômicos de longo prazo."
+    },
+    "heat": {
+      "water_resources": "Aumento da evaporação dos corpos de água, maior demanda de água e possíveis problemas de qualidade da água.",
+      "healthcare": "Doenças e mortes relacionadas ao calor, particularmente entre populações vulneráveis, e aumento da pressão sobre as instalações de saúde.",
+      "energy_security": "Maior demanda de energia para refrigeração, redução da eficiência de transmissão e potenciais falhas na rede durante picos de demanda.",
+      "food_security": "Redução da produtividade agrícola, estresse do gado, desafios de irrigação e interrupção dos sistemas de distribuição de alimentos.",
+      "general": "Impactos na saúde, picos de demanda de energia, estresse na infraestrutura e impactos em populações vulneráveis."
+    },
+    "general": {
+      "water_resources": "Mudanças na qualidade e disponibilidade da água afetando a água potável, irrigação e saúde do ecossistema.",
+      "food_security": "Interrupção da produção, distribuição e acesso a alimentos, com potenciais aumentos de preços.",
+      "healthcare": "Aumento da demanda por serviços de saúde, possível propagação de doenças e desafios na prestação de serviços.",
+      "infrastructure": "Danos à infraestrutura crítica, interrupção de serviços e aumento nos custos de manutenção.",
+      "energy_security": "Interrupção da produção, transmissão e distribuição de energia, com potencial escassez de fornecimento.",
+      "default": "Impactos potenciais em múltiplos setores, incluindo infraestrutura, saúde, economia e sistemas naturais."
     }
   }
 }
