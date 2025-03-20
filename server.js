@@ -10,6 +10,9 @@ app.get('/health', (req, res) => {
   res.status(200).send('OK');
 });
 
+// Serve optimized-data directory
+app.use('/optimized-data', express.static(path.join(__dirname, 'optimized-data')));
+
 // Serve static files from dist
 app.use(express.static(path.join(__dirname, 'dist')));
 
