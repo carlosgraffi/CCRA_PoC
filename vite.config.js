@@ -48,10 +48,22 @@ export default defineConfig({
   ],
   server: {
     host: '0.0.0.0',
-    port: 3000
+    port: process.env.PORT || 3000
   },
   preview: {
     host: '0.0.0.0',
-    port: 3000
+    port: process.env.PORT || 3000,
+    middlewareMode: 'html',
+    setupMiddleware: (app) => {
+      // Add health check endpoint
+      app.use('/', (req, res, next) => {
+        if (req.url === '/') {
+          res.setHeader('Content-Type', 'text/plain');
+          res.end('OK');
+          return;
+        }
+        next();
+      });
+    }
   }
 });
