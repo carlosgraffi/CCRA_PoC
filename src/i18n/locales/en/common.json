@@ -16,7 +16,10 @@
     "exposure": "Exposure",
     "climate_threat": "Climate Threat",
     "vulnerability": "Vulnerability",
-    "risk": "Risk"
+    "risk": "Risk",
+    "climate_threat": "Hazard Score",
+    "vulnerability": "Vulnerability",
+    "exposure": "Exposure"
   },
   "risk_levels": {
     "very_low": "Very Low",
@@ -88,5 +91,11 @@
   },
   "error": "Error loading data",
   "loading": "Loading...",
-  "no_data": "No data available"
+  "no_data": "No data available",
+  "legends": {
+    "hazards": "Hazards"
+  },
+  "labels": {
+    "hazards": "Select hazards to display"
+  }
 }

@@ -1282,5 +1282,77 @@
       "tas",
       "tasmax"
     ]
+  },
+  {
+    "id": "Corumba",
+    "name": "Corumba",
+    "indices": [
+      "CDD",
+      "RX1day",
+      "RX5day",
+      "TX90p",
+      "tas",
+      "tasmax"
+    ]
+  },
+  {
+    "id": "Corumbá",
+    "name": "Corumbá",
+    "indices": [
+      "CDD",
+      "RX1day",
+      "RX5day",
+      "TX90p",
+      "tas",
+      "tasmax"
+    ]
+  },
+  {
+    "id": "Maranguape",
+    "name": "Maranguape",
+    "indices": [
+      "CDD",
+      "RX1day",
+      "RX5day",
+      "TX90p",
+      "tas",
+      "tasmax"
+    ]
+  },
+  {
+    "id": "Rio_Branco",
+    "name": "Rio Branco",
+    "indices": [
+      "CDD",
+      "RX1day",
+      "RX5day",
+      "TX90p",
+      "tas",
+      "tasmax"
+    ]
+  },
+  {
+    "id": "Rio_Branco",
+    "name": "Rio Branco",
+    "indices": [
+      "CDD",
+      "RX1day",
+      "RX5day",
+      "TX90p",
+      "tas",
+      "tasmax"
+    ]
+  },
+  {
+    "id": "Serra",
+    "name": "Serra",
+    "indices": [
+      "CDD",
+      "RX1day",
+      "RX5day",
+      "TX90p",
+      "tas",
+      "tasmax"
+    ]
   }
 ]

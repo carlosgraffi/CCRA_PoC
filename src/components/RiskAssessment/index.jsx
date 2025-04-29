@@ -17,6 +17,8 @@ import MultilingualExportButtons from '../MultilingualExportButtons';
 import { DownloadButton, downloadAsPNG } from "../../utils/chartExportUtils.jsx";
 import ClimateProjections from './ClimateProjections';
 import ExecutiveSummaryDashboard from '../ExecutiveSummaryDashboard';
+import HazardRadarComparison from "./HazardRadarComparison";
+
 
 const RiskAssessment = forwardRef(({ cityname, region, actor_id, osm_id, onBack }, ref) => {
   const { t } = useTranslation();
@@ -204,7 +206,7 @@ const RiskAssessment = forwardRef(({ cityname, region, actor_id, osm_id, onBack 
           {/* Only show ClimateProjections component */}
           <ClimateProjections cityname={cityname} />
         </div>
-
+        
         {/* Risk Comparisons Section */}
         <div id="comparison" className="scroll-mt-24 grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
           <div className="bg-white rounded-2xl shadow-sm p-4 sm:p-6 flex flex-col">
@@ -214,6 +216,15 @@ const RiskAssessment = forwardRef(({ cityname, region, actor_id, osm_id, onBack 
               insights={t("sections:hazard_comparison.insights")}
             />
             <RadialComparison riskAssessment={processedRiskData} />
+          </div>
+
+          <div id="hazard-radar" className="scroll-mt-24 bg-white rounded-2xl shadow-sm p-4 sm:p-6">
+            <SectionHeader
+              title={t("sections:hazard_radar.title")}
+              description={t("sections:hazard_radar.description")}
+              insights={t("sections:hazard_radar.insights")}
+            />
+            <HazardRadarComparison riskAssessment={processedRiskData} />
           </div>
 
           <div className="bg-white rounded-2xl shadow-sm p-4 sm:p-6">

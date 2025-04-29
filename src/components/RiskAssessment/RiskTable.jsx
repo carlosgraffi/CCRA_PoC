@@ -252,7 +252,9 @@ const RiskTable = ({ riskAssessment, actor_id, resilienceScore }) => {
                       </div>
 
                       {tooltipRow === row && (
-                        <div className="absolute z-10 w-80 bg-white rounded-md shadow-lg border border-gray-200 p-4 mt-1 left-0 -ml-20">
+                        <div className={`absolute z-10 w-80 bg-white rounded-md shadow-lg border border-gray-200 p-4 left-0 -ml-20 ${
+                          index >= sortedAndFilteredData.length - 3 ? 'bottom-full mb-1' : 'top-full mt-1'
+                        }`}>
                           <div className="space-y-3 text-sm">
                             <div className="font-medium text-gray-900">
                               {t("sections:ccra_table.component_scores")}

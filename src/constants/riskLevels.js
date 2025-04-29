@@ -47,10 +47,10 @@ export const getRiskLevel = (score) => {
 
   const numScore = Number(score);
 
-  if (numScore < 0.078) return riskLevels.VERY_LOW;
-  if (numScore < 0.165) return riskLevels.LOW;
-  if (numScore < 0.289) return riskLevels.MEDIUM;
-  if (numScore < 0.508) return riskLevels.HIGH;
+  if (numScore < 0.19) return riskLevels.VERY_LOW;
+  if (numScore < 0.39) return riskLevels.LOW;
+  if (numScore < 0.59) return riskLevels.MEDIUM;
+  if (numScore < 0.79) return riskLevels.HIGH;
   return riskLevels.VERY_HIGH;
 };
 

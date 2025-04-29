@@ -108,5 +108,14 @@
     "button": "Export as CSV",
     "pdfButton": "Export as PDF",
     "exporting": "Exporting..."
+  },
+  "hazard_radar": {
+    "title": "Hazard Dimension Analysis",
+    "description": "This triangular chart visualizes the balance between hazard score, vulnerability, and exposure for each climate risk.",
+    "insights": "The shape and size of each triangle reveals how different dimensions contribute to overall risk. Balanced triangles indicate equal contribution from all factors.",
+    "chart_title": "Radial Comparison",
+    "chart_explanation": "This chart shows the three dimensions of risk for each hazard. Each triangle represents a hazard, with the distance from center to each vertex showing the normalized score for hazard score, vulnerability, and exposure.",
+    "no_data": "No hazard data available for visualization.",
+    "detailed_comparison": "Detailed Comparison"
   }
 }

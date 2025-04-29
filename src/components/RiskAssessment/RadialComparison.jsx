@@ -107,7 +107,7 @@ const RadialComparison = forwardRef(({ riskAssessment }, ref) => {
             <button
               key={hazard.id}
               onClick={() => toggleHazard(hazard.id)}
-              className={`px-4 py-2 rounded-lg text-sm font-medium transition-all
+              className={`px-4 py-2 rounded-lg capitalize text-sm font-medium transition-all
                 hover:scale-105 active:scale-95 max-w-[250px]
                 ${selectedHazards.includes(hazard.id)
                   ? 'bg-blue-600 text-white shadow-sm'

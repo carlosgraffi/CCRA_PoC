@@ -10,7 +10,7 @@
     "no_data": "Não há dados de risco disponíveis"
   },
   "hazard_comparison": {
-    "title": "Comparação de Riscos",
+    "title": "Comparação de Ameaças",
     "description": "Este gráfico mostra como diferentes aspectos do risco contribuem para a pontuação geral de risco da sua cidade para cada ameaça climática.",
     "insights": "Procure padrões no que impulsiona seus riscos - é alta probabilidade de risco, exposição ou vulnerabilidade? Isso ajuda a direcionar suas estratégias de adaptação de forma eficaz.",
     "no_data": "Não há dados de comparação de risco disponíveis"
@@ -105,5 +105,12 @@
     "button": "Exportar como CSV",
     "pdfButton": "Exportar como PDF",
     "exporting": "Exportando..."
+  },
+  "hazard_radar": {
+    "title": "Análise Dimensional de Ameaças",
+    "description": "Este gráfico radar triangular visualiza o equilíbrio entre magnitude da ameaça, vulnerabilidade e exposição para cada risco climático.",
+    "insights": "A forma e o tamanho de cada triângulo revela como diferentes dimensões contribuem para o risco geral. Triângulos equilibrados indicam contribuição igual de todos os fatores.",
+    "chart_title": "Comparaçao de Ameaças",
+    "chart_explanation": "Este gráfico radar mostra as três dimensões de risco para cada ameaça. Cada triângulo representa uma ameaça, com a distância do centro a cada vértice mostrando a pontuação normalizada para magnitude da ameaça, vulnerabilidade e exposição."
   }
 }
